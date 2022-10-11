@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+#con_clock{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: solid 6px yellow;
+    margin: 50px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    box-shadow: 1px 1px 20px 0px grey;
+
+
+}
+
+
+
+
+
+
+#hour{
+    height: 120px;
+    width: 6px;
+    border-radius: 30px;
+    background-color: rgb(8, 8, 8);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: absolute;
+    left: 190px;
+    top: 80px;
+    transform-origin: 0 100%;
+    
+    
+}
+
+#moment{
+    height: 150px;
+    width: 4px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: absolute;
+    left: 190px;
+    top: 50px;
+    transform-origin: 0 100%;
+    
+    
+}
+
+#second{
+    height: 170px;
+    width: 2px;
+    border-radius: 30px;
+    background-color: rgb(173, 40, 40);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: absolute;
+    left: 190px;
+    top: 30px;
+    transform-origin: 0 100%;
+    
+    
+}
+
+.middle{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: absolute;
+    left: 177px;
+    top: 185px;
+    transform-origin: 0 100%;
+}
+
+.number{
+    --rotation:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 3em;
+    transform: rotate(var(--rotation));
+    -webkit-transform: rotate(var(--rotation));
+    -moz-transform: rotate(var(--rotation));
+    -ms-transform: rotate(var(--rotation));
+    -o-transform: rotate(var(--rotation));
+}
+
+.num1{
+    --rotation:30deg;
+    
+}
+.num2{
+    --rotation:60deg;
+}
+.num3{
+    --rotation:90deg;
+}
+.num4{
+    --rotation:120deg;
+}
+.num5{
+    --rotation:150deg;
+}
+.num6{
+    --rotation:180deg;
+}
+.num7{
+    --rotation:210deg;
+}
+.num8{
+    --rotation:240deg;
+}
+.num9{
+    --rotation:270deg;
+}
+.num10{
+    --rotation:300deg;
+}
+.num11{
+    --rotation:330deg;
+}
+.num12{
+    --rotation:360deg;
+}
